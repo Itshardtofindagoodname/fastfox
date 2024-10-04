@@ -67,24 +67,58 @@ For higher limits, check out their paid plans.
 - **llama3-8b-8192**: Command and code suggestions
 - **mixtral-8x7b-32768**: Code generation
 
-## 💻 Usage
+## Usage
 
-### Organize Files
+### Commands
+
+#### Organize Files
+Organize files in a specified folder by analyzing their content and sorting them into categorized subfolders.
+
+```bash
+python fastfox.py organize <folder_path>
+```
+
+Example:
 ```bash
 python fastfox.py organize C:\Users\Icarus\Pictures
 ```
 
-### Get Command Suggestions
+#### Command Suggestions
+Get AI-generated command-line suggestions.
+
+```bash
+python fastfox.py command "<query>"
+```
+
+Example:
 ```bash
 python fastfox.py command "List all files in a directory"
 ```
 
-### Generate or Suggest Code
+#### Code Generation and Suggestions
+Generate or suggest code for a given file.
+
+```bash
+python fastfox.py codeit <file_path>
+```
+
+Example:
 ```bash
 python fastfox.py codeit C:\Users\Icarus\Projects\main.py
 ```
 
-### Forget History
+You will be prompted to choose between code generation or suggestion.
+- Generation: Generates code based on the provided file.
+- Suggestion: Suggests changes to the provided file.
+
+#### Forget History
+Forget previous command history or clear all stored information.
+
+```bash
+python fastfox.py forget <all|command|codeit|organize>
+```
+
+Example:
 ```bash
 python fastfox.py forget all
 ```
