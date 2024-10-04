@@ -47,7 +47,7 @@ Unleash the power of AI to organize files at lightning speed, get smart command 
    You'll be prompted for your Hugging Face and Groq API keys on first run.
 
 4. **EXE Version**:
-   Simply run the `.exe`, enter your API keys, and FastFox handles the rest automatically.
+   Simply run the `.exe` as administrator, enter your API keys, and FastFox handles the rest automatically.
 
 ## 🔑 API Key Information
 
