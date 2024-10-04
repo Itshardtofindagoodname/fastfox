@@ -130,10 +130,6 @@ FastFox outperforms traditional file explorers:
 - Generates command suggestions in <1s
 - Provides code insights 5x faster than manual review
 
-## 📚 Documentation
-
-Comprehensive documentation available at [fastfox-docs.com](https://fastfox-docs.com) (Coming Soon!)
-
 ## 🙏 Acknowledgements
 - [Hugging Face](https://huggingface.co) for their exceptional models
 - [Groq](https://groq.com) for powering FastFox's lightning-fast AI suggestions
