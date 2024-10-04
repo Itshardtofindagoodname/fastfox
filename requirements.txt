@@ -1,0 +1,17 @@
+os
+re
+sys
+csv
+docx
+json
+base64
+winreg
+PyPDF2
+requests
+pythoncom
+subprocess
+pandas
+groq
+win32com.client
+io
+nltk
